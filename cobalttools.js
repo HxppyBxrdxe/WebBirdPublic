@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
             textElement.textContent = 'cloudflare turnstile is still checking if you\'re not a bot. if it takes too long, you can try: disabling weird browser extensions, changing networks, using a different browser, or checking your device for malware.';
             secondLine.textContent = '(Not really)';
             smileImg.style.display = 'none';
-            errorImg.style.display = 'block';
+            errorImg.style.display = 'none';
             showPopup();
 
             setTimeout(() => {
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
             textElement.textContent = 'No URL entered.';
             secondLine.textContent = 'Please enter a URL to continue.';
             smileImg.style.display = 'none';
-            errorImg.style.display = 'block';
+            errorImg.style.display = 'none';
             showPopup();
 
             setTimeout(() => {
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 .then(() => {
                     textElement.textContent = `You searched for: ${query}`;
                     secondLine.textContent = 'Redirecting you to cobalt.tools. Your link has been copied again, just paste it back into cobalt.';
-                    smileImg.style.display = 'block';
+                    smileImg.style.display = 'none';
                     errorImg.style.display = 'none';
                     showPopup();
 
@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     textElement.textContent = 'Clipboard copy failed.';
                     secondLine.textContent = 'Please try again later.';
                     smileImg.style.display = 'none';
-                    errorImg.style.display = 'block';
+                    errorImg.style.display = 'none';
                     showPopup();
 
                     setTimeout(() => {
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
             textElement.textContent = 'Invalid link. Please enter a valid URL.';
             secondLine.textContent = 'Make sure the URL starts with "https://".';
             smileImg.style.display = 'none';
-            errorImg.style.display = 'block';
+            errorImg.style.display = 'none';
             showPopup();
 
             setTimeout(() => {
